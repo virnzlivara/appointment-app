@@ -55,8 +55,7 @@ export default function Home(props: PropsWithChildren) {
 
   const getTableHeight = () => {
     const row4 = document.getElementById("timeslot-5") || 0;
-    const height = row4 && row4?.clientHeight * 24;
-    debugger
+    const height = row4 && row4?.clientHeight * 24; 
     setRowHeight(height.toString() + "px");
   }
 
